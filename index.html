@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">მთავარი</a></li>
+                <li><a href="#">სიახლეები</a></li>
+                <li><a href="#">სასწავლო პროგრამები</a></li>
+                <li><a href="#">სტუდენტებისთვის</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- სიახლეები და მოვლენები -->
+    <section class="news">
+        <h2>სიახლეები და მოვლენები</h2>
+        <div class="grid-container">
+            <div class="news-item">
+                <img src="images/news1.png" alt="სიახლე 1">
+                <p>სიახლე 1-ის აღწერა <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, sit. </p>
+            </div>
+            <div class="news-item">
+                <img src="images/news2.jpg" alt="სიახლე 2">
+                <p>სიახლე 2-ის აღწერა<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, sit.</p>
+            </div>
+            <div class="news-item">
+                <img src="images/news3.png" alt="სიახლე 3">
+                <p>სიახლე 3-ის აღწერა<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, sit.</p>
+            </div>
+        </div>
+        <button>ყველა სიახლე</button>
+    </section>
+
+    <!-- როგრამები -->
+    <section class="programs">
+        <h2>პროგრამები</h2>
+        <div class="grid-container">
+            <div class="program-item">
+                <img src="https://gtu.ge/bitrix/templates/GTU/images/programs/doct.webp" alt="ბაკალავრიატი">
+                <p>ბაკალავრიატი</p>
+            </div>
+            <div class="program-item">
+                <img src="https://gtu.ge/bitrix/templates/GTU/images/programs/doct.webp" alt="მაგისტრატურა">
+                <p>მაგისტრატურა</p>
+            </div>
+            <div class="program-item">
+                <img src="https://gtu.ge/bitrix/templates/GTU/images/programs/doct.webp" alt="დოქტორანტურა">
+                <p>დოქტორანტურა</p>
+            </div>
+            <div class="program-item">
+                <img src="https://gtu.ge/bitrix/templates/GTU/images/programs/doct.webp" alt="პროფესიული">
+                <p>პროფესიული</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="profile">
+        <div class="profile-info">
+            <img src="images/professor.jpg" alt="პროფესორი">
+            <div>
+                <h3>გიორგი დათუნაშვილი</h3>
+                <p>პროფესორის მოკლე ბიოგრაფია და აღწერა.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p> &copy; 2025 ყველა უფლება დაცულია</p>
+    </footer>
+</body>
+</html>
